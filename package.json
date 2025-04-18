@@ -19,6 +19,14 @@
     "oyl-cli": "./bin/cli.js",
     "oyl": "./bin/oyl.js"
   },
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "import": "./lib/index.js",
+      "require": "./lib/index.js"
+    },
+    "./package.json": "./package.json"
+  },
   "author": "Oyl Dynamics",
   "license": "MIT",
   "private": false,
